@@ -38,7 +38,7 @@ function addFun(event) {
     if (taskText === '') {
         // Add error styling to input field
         inputElement.classList.add('input-error');
-        inputElement.placeholder = 'Task cannot be empty!';
+        inputElement.placeholder = 'Task field can\'t be empty!';
         return;
     }
 
