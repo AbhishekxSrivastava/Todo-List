@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="container">
+        <h1>To-Do List</h1>
+
+        <div class="input-area">
+            <input type="text" placeholder="Add a task..." class="js-task" onmouseover="refresh()">
+            <button onclick="addFun()">Add</button>
+            <button onclick="clearAll()" class="clear-all">Clear All</button>
+        </div>
+
+        <div id="tasks-container">
+            <p>Today's Goals</p>
+            <div id="to-do" class="task-list">
+                <div class="js-addedElement"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
+
